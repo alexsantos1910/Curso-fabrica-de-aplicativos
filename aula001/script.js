@@ -1,0 +1,1 @@
+alert('criando o site!')
