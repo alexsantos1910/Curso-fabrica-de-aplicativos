@@ -10,10 +10,6 @@ function entrar(){
     }else{
         area.innerHTML = `Seja bem vindo ${nome}`
 
-        n1 = document.getElementById(p1)
-        n2 = document.getElementById(p2)
-
-
         let botaosair = document.createElement('button')
         botaosair.innerText = 'Sair da conta'
         botaosair.onclick = sair
@@ -27,7 +23,7 @@ function entrar(){
     }
 
 
-    function media(nota1, nota2){
+    function mediaAluno(nota1, nota2){
         var media = (nota1 + nota2) / 2
 
         if(media >=7) {
@@ -35,5 +31,10 @@ function entrar(){
         }else if (media < 7){
             console.log(`Aluno ${nome} reprovado com media ${media}`)
         }
+    }
+
+    function aluno(nome, curso){
+        var mensagem = `seja bem-vindo ${nome} ao curso ${curso}`
+        console.log(mensagem)
     }
 }
