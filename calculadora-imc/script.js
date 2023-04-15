@@ -25,7 +25,6 @@ function calcular(event){
         resultado.innerHTML = (`Seu IMC é ${imc.toFixed(2)}, Você está acima do peso,cuidado!!`)
     } else if (imc >= 30){
         resultado.innerHTML = (`Seu IMC é ${imc.toFixed(2)}, Você esta muito acima do peso , procure um profisional!`)
-        foto = scr()
-        foto.innerHTML = 
+        foto.innerHTML = "<img src ='fotos/alex.jpg' width = '250'>"
     }
-}
+}''
