@@ -34,4 +34,7 @@ function calcular(event){
         resultado.innerHTML = (`Seu IMC é ${imc.toFixed(2)}, Você está obesa , bora emagreçe ta parecendo uma coxinha!!kkkk`)
         foto.innerHTML = "<img src ='fotos/alcimery.jpg' width = '250'>"
     }
+
+    document.getElementById('peso').value = ''
+    document.getElementById('altura').value = ''
 }
